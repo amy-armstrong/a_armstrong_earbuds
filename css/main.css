@@ -17,9 +17,13 @@ model-viewer {
     transition: all 1s ease-in-out;
   }
   
+<<<<<<< Updated upstream
 
   .Hotspot:not([data-visibility-attribute]) {
 
+=======
+  .Hotspot:not([data-visibility-attribute]) {
+>>>>>>> Stashed changes
     opacity: 0;
     width: 45px;
     height: 38px;
@@ -35,7 +39,10 @@ model-viewer {
   
   .HotspotAnnotation {
     opacity: 0;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     visibility: hidden;
     background: #fff;
     border-radius: 4px;
