@@ -19,7 +19,6 @@ model-viewer {
   
 
   .Hotspot:not([data-visibility-attribute]) {
-
     opacity: 0;
     width: 45px;
     height: 38px;
@@ -35,7 +34,6 @@ model-viewer {
   
   .HotspotAnnotation {
     opacity: 0;
-
     visibility: hidden;
     background: #fff;
     border-radius: 4px;
