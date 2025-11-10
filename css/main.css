@@ -1,3 +1,5 @@
+dev.aa.index.html
+
 model-viewer {
     width: auto;
     max-width: 1200px;
@@ -15,7 +17,9 @@ model-viewer {
     transition: all 1s ease-in-out;
   }
   
-  .Hotspot:not([data-visible]) {
+
+  .Hotspot:not([data-visibility-attribute]) {
+
     opacity: 0;
     width: 45px;
     height: 38px;
@@ -30,6 +34,8 @@ model-viewer {
   }
   
   .HotspotAnnotation {
+    opacity: 0;
+
     visibility: hidden;
     background: #fff;
     border-radius: 4px;
@@ -68,4 +74,6 @@ model-viewer {
   
   model-viewer::part(default-progress-mask) {
     display: none;
+
   }/*# sourceMappingURL=main.css.map */
+
