@@ -133,5 +133,79 @@ model-viewer {
 
   }/*# sourceMappingURL=main.css.map */
 
+/* === Tablets === */
+@media (max-width: 1024px) {
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 0 2rem;
+  }
+
+  model-viewer {
+    height: 500px;
+  }
+
+  .Hotspot {
+    width: 35px;
+    height: 30px;
+    background-size: 80%;
+  }
+
+  .HotspotAnnotation {
+    font-size: 16px;
+    max-width: 160px;
+    padding: 0.4em 0.8em;
+  }
+}
+
+/* === Mobile === */
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 0.8rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  model-viewer {
+    height: 350px;
+  }
+
+  .Hotspot {
+    width: 25px;
+    height: 22px;
+    background-size: 70%;
+  }
+
+  .HotspotAnnotation {
+    font-size: 14px;
+    max-width: 140px;
+    padding: 0.3em 0.6em;
+  }
+}
 
 
