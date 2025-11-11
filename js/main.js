@@ -48,12 +48,13 @@
         //lets populate the p
         textElement.textContent = infoBox.text;
   
-        //lets add the img to the selected hotspot
-        selected.appendChild(imageElement);
+
         //lets add the h2 to the selected hotspot
         selected.appendChild(titleElement);
         //lets add the p to the selected hotspot
         selected.appendChild(textElement);
+        //lets add the img to the selected hotspot
+        selected.appendChild(imageElement);
   
       });
     }
