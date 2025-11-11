@@ -4,23 +4,23 @@
     const infoBoxes = [
       {
         image: "images/nameofimage.jpg",
-        title: "Noise-cancelling microphones",
-        text: "Noise-cancelling microphones and a rear copper shield are optimally placed to quickly detect outside noises, working together to counter noise before it disturbs your experience."
+        title: "Noise-cancelling",
+        text: "Reduces external noise for immersive listening."
       },
       {
         image: "images/nameofimage.jpg",
-        title: "Comfortable fit",
-        text: "Three pairs of ultra comfortable silicone tips are included. The tips create an acoustic seal that blocks outside audio and secures the earbuds in place."
+        title: "Touch Controls",
+        text: "Play/pause, skip tracks, answer calls, volume adjustments with taps or swipes."
       },
       {
         image: "images/nameofimage.jpg",
-        title: "360 AUDIO",
-        text: "360 Audio places sound all around you, while Dolby Head Tracking™ technology delivers an incredible three-dimensional listening experience."
+        title: "Lightweight & Compact",
+        text: "Comfortable for long wear."
       },
       {
         image: "images/nameofimage.jpg",
-        title: "Ultra Fast Charging",
-        text: "Charge your earbuds in 30 minutes or less with our hyper charging technology."
+        title: "Sweat & Water Resistance",
+        text: "IPX4/IPX7 for workouts and outdoor use."
       }
     ]
   
