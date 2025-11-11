@@ -7,7 +7,8 @@ model-viewer {
   }
   
   .Hotspot {
-    background: url(../images/hotspot.svg) center no-repeat;
+    background: url(../images/vecteezy_yellow-lightning-bolt-icon-on-circular-background-with-3d_69096699.png) center no-repeat;
+    background-size: 95%;
     border: 0;
     cursor: pointer;
     width: 45px;
