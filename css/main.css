@@ -15,7 +15,7 @@ model-viewer {
     transition: all 1s ease-in-out;
   }
   
-  .Hotspot:not([data-visible]) {
+  .Hotspot:not([data-visibility-attribute]) {
     opacity: 0;
     width: 45px;
     height: 38px;
