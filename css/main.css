@@ -164,9 +164,19 @@ model-viewer {
   }
 
   .HotspotAnnotation {
+    font-size: 16px;       /* smaller text */
+    max-width: 160px;      /* narrower info box */
+    padding: 0.4em 0.8em;  /* less padding */
+  }
+
+  .HotspotAnnotation h2 {
     font-size: 16px;
-    max-width: 160px;
-    padding: 0.4em 0.8em;
+    margin-bottom: 4px;
+  }
+
+  .HotspotAnnotation p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
@@ -205,6 +215,16 @@ model-viewer {
     font-size: 14px;
     max-width: 140px;
     padding: 0.3em 0.6em;
+  }
+
+  .HotspotAnnotation h2 {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  .HotspotAnnotation p {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 
