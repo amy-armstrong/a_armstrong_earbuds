@@ -3,22 +3,22 @@
   
     const infoBoxes = [
       {
-        image: "images/nameofimage.jpg",
+        image: "images/white_cloud.png",
         title: "Noise-cancelling",
         text: "Reduces external noise for immersive listening."
       },
       {
-        image: "images/nameofimage.jpg",
+        image: "images/white_cloud.png",
         title: "Touch Controls",
         text: "Play/pause, skip tracks, answer calls, volume adjustments with taps or swipes."
       },
       {
-        image: "images/nameofimage.jpg",
+        image: "images/white_cloud.png",
         title: "Lightweight & Compact",
         text: "Comfortable for long wear."
       },
       {
-        image: "images/nameofimage.jpg",
+        image: "images/white_cloud.png",
         title: "Sweat & Water Resistance",
         text: "IPX4/IPX7 for workouts and outdoor use."
       }
